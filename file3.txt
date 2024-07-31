@@ -1,0 +1,3 @@
+Git fetch
+The git fetch <remote> command fetches branches and history from a specific remote repository. It only updates remote tracking branches.
+git fetch origin would fetch all changes from the origin remote repository. 
