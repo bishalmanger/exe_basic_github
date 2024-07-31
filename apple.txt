@@ -1,0 +1,9 @@
+To Check an available branch in the remote repository 
+Command check an available branch: $ git branch -r
+
+Solution to create a new local branch from the remote branch 
+Run git switch <remote-branch-name> to create a new local branch from the remote branch of the same name.
+Example: git switch foods makes me a local foods branch and sets it up to track the remote branch origin/foods. 
+
+Note: 
+The new Command git switch makes this super easy to do! It used to be slightly more complicated using git checkout.
